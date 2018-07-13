@@ -1,0 +1,13 @@
+﻿生成启动时间为 7/13/2018 12:16:35 PM。
+     1>项目“D:\VSProject\ThreadPool\ThreadPool\ThreadPool.vcxproj”在节点 2 上(Build 个目标)。
+     1>Build:
+         "C:\Program Files (x86)\Sysprogs\VisualGDB\VisualGDB.exe" /build "D:\VSProject\ThreadPool\ThreadPool\ThreadPool.vcxproj" "/solution:C:\Users\dell\Desktop\ThreadPool\ThreadPool.sln"  "/config:Debug" "/platform:Win32"
+         VisualGDB: Sending 1 updated source file to build machine...
+         VisualGDB: Run "make  CONFIG=Debug" in directory "/tmp/VisualGDB/d/VSProject/ThreadPool/ThreadPool" on ubuntu@192.168.58.135 (SSH)
+         g++ -std=c++11 -ggdb -ffunction-sections -O0   -DDEBUG=1  -c testThreadPool.cpp -o Debug/testThreadPool.o -MD -MF Debug/testThreadPool.dep
+         g++ -o Debug/ThreadPool -Wl,-gc-sections    -Wl,--start-group Debug/Thread.o Debug/testThreadPool.o -lpthread  -Wl,--rpath='$ORIGIN'   -Wl,--end-group
+     1>已完成生成项目“D:\VSProject\ThreadPool\ThreadPool\ThreadPool.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.15
